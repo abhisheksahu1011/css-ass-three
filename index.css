@@ -1,0 +1,117 @@
+body{
+    background-color:skyblue;
+
+}
+.box1
+{
+    text-align: center;
+    border: 6px solid rgb(221, 47, 169) ;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    font-style: italic;
+    background-color: white;
+    color:rgb(119, 226, 151);
+    text-shadow: 1px 1px rgb(229, 158, 158);
+    margin: auto;
+    padding: 15px;
+    box-shadow: 7px 7px rgb(226, 194, 151);
+}
+.container{
+    border: 3px solid orange;
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    height: 500px;
+}
+.one
+{
+    text-align: center;
+    border: 6px solid red ;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    font-style: italic;
+    background-color: white;
+    color:rgb(206, 52, 52);
+    text-shadow: 1px 1px rgb(219, 88, 88);
+    display: inline-block;
+}
+.two{
+   
+    margin-left:858px;
+    position: absolute;
+    left: 150px;
+    height: 205px;
+    width: 300px;
+    text-align: center;
+    border: 6px solid red ;
+    border-radius: 20px;
+    color:rgb(206, 52, 52);
+    text-shadow: 1px 1px rgb(219, 88, 88);
+    display: inline-block;
+}
+.three
+{
+    text-align: center;
+    border: 6px solid red ;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    font-style: italic;
+    background-color: white;
+    color:rgb(206, 52, 52);
+    text-shadow: 1px 1px rgb(219, 88, 88);
+    display: inline-block;
+    margin-top: 280px;
+    margin-left: -310px;
+    
+}
+.four
+{
+    text-align: center;
+    border: 6px solid red ;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    font-style: italic;
+    background-color: white;
+    color:rgb(206, 52, 52);
+    text-shadow: 1px 1px rgb(219, 88, 88);
+    display: inline-block;
+    margin-top: -220px;
+    margin-left:1000px;
+}
+.container2{
+    background-color: green;
+    width: 950px;
+    margin: auto;
+    border: 5px solid #5d0c5d;
+    text-align: center;
+    margin-top: 20px;
+    height: 600px;
+}
+.store{
+    background-color: #e1e16c;
+    font-style: italic;
+}
+.store1{
+    display: inline-block;
+    width: 470px;
+    height: 270px;
+    margin-right:5px;
+}
+.store2{
+    display: inline-block;
+    width: 470px;
+    height: 270px;
+}
+.fixed{
+    background-color: rgb(115, 221, 115);
+    position: fixed;
+    left: 410px;
+    bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}    
